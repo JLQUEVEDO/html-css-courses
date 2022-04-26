@@ -1,0 +1,125 @@
+/****1st grid example *****/
+
+.outter-cont {
+  display: grid;
+  grid-template-columns: 100px 100px ; /**2 columns of 100 each**/
+}
+
+.cont-01 {
+  background-color: lightblue;
+}
+
+.cont-02 {
+  background-color: lightpink;
+}
+
+/********2nd grid example****/
+p{
+  padding-left: 10px;
+}
+
+.outter-cont2 {
+  display: grid;
+  grid-template-columns: 100px 100px 200px;
+  margin-top: 30px;
+}
+
+.cont-03 {
+  background-color: lightblue;
+}
+
+.cont-04 {
+  background-color: lightpink;
+}
+
+.cont-05 {
+  background-color: lightblue;
+}
+.cont-06 {
+  background-color: lightpink;
+}
+
+/********** 3rd Grid example******/
+
+.outter-cont3 {
+  display: grid;
+  grid-template-columns: 100px 1fr 200px; /** 1fr = free Space**/
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cont-07 {
+  background-color: lightblue;
+  
+}
+
+.cont-08 {
+  background-color: lightpink;
+}
+
+.cont-09 {
+  background-color: lightblue;
+}
+
+/******** 4th Grid Example********/
+
+.header-01 {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: 200px 150px 1fr 2fr;
+  
+}
+
+.cont-10 {
+  background-color: lightblue;
+  border: 0.5px solid black;
+  padding-left: 10px;
+}
+
+.cont-11 {
+  background-color: lightpink;
+  border: 0.5px solid black;
+}
+
+.cont-12 {
+  background-color: lightblue;
+  border: 0.5px solid black;
+}
+
+.cont-13 {
+  background-color: lightpink;
+  border: 0.5px solid black;
+  
+}
+
+
+/**you example**/
+
+
+
+.youtube-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.cel01 {
+  background-color: lightblue;
+  height: 200px;
+}
+
+.cel02 {
+  background-color: lightpink;
+  height: 200px;
+}
+
+.cel03 {
+  background-color: lightblue;
+}
+
+body {
+  padding-bottom: 500px;
+}
+

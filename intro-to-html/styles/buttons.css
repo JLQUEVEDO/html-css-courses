@@ -1,0 +1,130 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color:white;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: opacity .15s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.subscribe-button:hover {
+  background-color: green;
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  background-color: blue;
+}
+
+.join-button {
+  background-color: white;
+  color: blue;
+  
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  color: rgb(41, 118, 211);
+  cursor: pointer;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  vertical-align: top;
+
+}
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+
+.tweet-button {
+  background-color:  rgb(2, 137, 255);
+  font-weight: bold;
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 8px;
+  color: white;
+  border-color: rgb(41, 118, 211);
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.practice-div {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.request-button {
+  background-color: black;
+  color: white;
+  height: 36px;
+  width: 105px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.add-button {
+  background-color: rgb(255, 216, 20);
+  margin-left: 10px;
+  height: 36px;
+  width: 150px;
+  border-radius: 18px;
+  border: none;
+}
+
+.signup-button{
+  background-color: rgb(46, 164, 79);
+  border: none;
+  width: 90px;
+  border-radius: 5px;
+  height: 36px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.getstared-button {
+  background-color: rgb(121,82,179);
+  border: none;
+  margin-left: 10px;
+  margin-right: 5px;
+  height: 36px;
+  width: 90px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+
+}
+
+.download-button {
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-radius: 3px;
+  color: rgb(108, 117, 125);
+  height: 36px;
+  width: 90px;
+  cursor:zoom-in
+  
+}
